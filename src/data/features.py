@@ -44,8 +44,8 @@ FEATURE_COLS = [
     "is_morning",
     "is_monday",
     "is_friday",
-    # Patient-level
     "age",
+    # Patient-level
     "sex_encoded",
     "insurance_encoded",
     "patient_prior_noshows",
@@ -285,3 +285,4 @@ if __name__ == "__main__":
 
     run(master_path=args.master_path, out_dir=args.out_dir)
     sys.exit(0)
+    
