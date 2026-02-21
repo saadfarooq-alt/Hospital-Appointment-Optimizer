@@ -48,11 +48,14 @@ HISTORY_THRESHOLD_BLEND = 1   # 1-2 appointments → blended rate
 # 0.5 = equal weight between personal rate and base rate
 BLEND_WEIGHT = 0.5
 
-# Risk tier boundaries (used for reminder prioritisation downstream)
+# Risk tier boundaries — defined relative to the base rate (0.074)
+# LOW    = below base rate       → unlikely to no-show, no action needed
+# MEDIUM = within 1.5x base rate → worth monitoring
+# HIGH   = above 1.5x base rate  → priority for reminder calls
 RISK_TIERS = {
-    "LOW":    (0.00, 0.10),
-    "MEDIUM": (0.10, 0.20),
-    "HIGH":   (0.20, 1.00),
+    "LOW":    (0.00, 0.06),
+    "MEDIUM": (0.06, 0.12),
+    "HIGH":   (0.12, 1.00),
 }
 
 
