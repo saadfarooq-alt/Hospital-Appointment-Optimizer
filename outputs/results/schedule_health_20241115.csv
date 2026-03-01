@@ -1,0 +1,2 @@
+total_slots,booked_slots,raw_utilization,expected_attended,expected_util,risk_HIGH,risk_MEDIUM,risk_LOW,mean_no_show_prob,date
+40,38,0.95,34.2,0.8561,9,4,25,0.0988,2024-11-15
