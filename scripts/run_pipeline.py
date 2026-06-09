@@ -1,6 +1,4 @@
-
 """
-
 run_pipeline.py
 ---------------
 End-to-end pipeline for the Hospital Appointment Optimizer.
@@ -10,7 +8,6 @@ Usage:
     python scripts/run_pipeline.py --date 2024-11-15 --skip_data_prep
     python scripts/run_pipeline.py --date 2024-11-15 --skip_data_prep --call_capacity 30
 """
-
 import argparse
 import logging
 import os
