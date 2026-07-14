@@ -41,8 +41,6 @@ Three relational tables sourced from [Medical Appointment Scheduling System](htt
 - `waiting_time` — minutes spent in waiting room (attended only)
 - `check_in_time`, `start_time`, `end_time` — full visit timeline
 
-> Raw data is not included in this repo. Download from Kaggle and place CSVs in `data/raw/`.
-
 ---
 
 ## Methodology
