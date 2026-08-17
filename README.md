@@ -166,18 +166,6 @@ jupyter
 
 ---
 
-## Skills Demonstrated
-
-- Relational data modeling and multi-table joins with referential integrity validation across 111k records
-- Leakage-safe feature engineering using expanding windows with per-patient temporal sorting
-- Full ML experiment lifecycle: temporal train/test split, class imbalance handling, calibration evaluation, and honest documentation of a negative result
-- Statistically grounded fallback design when ML signal is insufficient
-- Linear and integer programming with Gurobi — 0-1 knapsack (reminder allocation) and assignment IP (waitlist matching)
-- Solver-agnostic architecture with automatic Gurobi → PuLP fallback
-- End-to-end pipeline design with staged execution and `--skip_data_prep` for fast iteration
-
----
-
 ## Author
 
 **Sa'ad Farooq** — [LinkedIn](https://www.linkedin.com/in/sa-ad-farooq-057a5825b/) · [GitHub](https://github.com/saadfarooq-alt) · s4farooq@uwaterloo.ca
