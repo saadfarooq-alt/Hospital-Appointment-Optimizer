@@ -166,6 +166,10 @@ jupyter
 
 ---
 
+## Additional Paths
+
+
+---
 ## Author
 
 **Sa'ad Farooq** — [LinkedIn](https://www.linkedin.com/in/sa-ad-farooq-057a5825b/) · [GitHub](https://github.com/saadfarooq-alt) · s4farooq@uwaterloo.ca
